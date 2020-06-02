@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud@1.0/static/libs/semantic/dist/semantic.min.css" integrity="sha256-hq8jzEEtzNDAbLdCrrDfrRUCgL9NY73htrqqpZ6PzEc=" crossorigin="anonymous">
+    <title>Login To Mega - Bhadoo Cloud</title>
+    <style>
+        body {
+            background-color: #dadada;
+        }
+    </style>
+</head>
+
+<body class="ui middle aligned center aligned grid">
+    <div class="four wide computer fifteen wide mobile column">
+        <h2>Login to MEGA</h2>
+        <div class="ui segment">
+            <form class="ui form" method="GET" action="/oauthCallback">
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        <input type="text" name="username" placeholder="E-mail address" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="lock icon"></i>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                </div>
+                <input type="submit" class="ui primary fluid button" value="Login">
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud@1.0/static/libs/jquery/jquery.min.js" integrity="sha256-OWRoY6QU4KhJILOoY5wPPoyUU16NwFG0K0haBo3CkC8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud@1.0/static/libs/semantic/dist/semantic.min.js" integrity="sha256-clAOqigQj3g3VDZE2D8NjaTUkojDoDEeod4dp2TLed8=" crossorigin="anonymous"></script>
+</body>
+
+</html>
